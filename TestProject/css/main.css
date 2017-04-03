@@ -1,0 +1,48 @@
+h1 {
+  color: #fff;
+}
+
+.dvHeader {
+  background-color: black;
+  padding: 5px 5px 5px 10px;
+}
+.dvHeader div:first-child {
+  width: 25%;
+}
+
+.dvNav {
+  background-color: darkorange;
+  padding: 25px;
+}
+.dvNav a {
+  color: #fff;
+  padding-left: 25px;
+  text-decoration: none;
+}
+.dvNav a:first-child {
+  padding-left: 2px;
+}
+
+.dvContent .dvContentLeft {
+  background-color: white;
+  width: 43%;
+  float: left;
+  padding: 10px;
+  position: absolute;
+  height: 100px;
+}
+.dvContent .dvContentRight {
+  background-color: green;
+  width: 43%;
+  float: right;
+  padding: 10px;
+  position: relative;
+  height: 100px;
+}
+
+.dvFooter {
+  clear: both;
+  background-color: black;
+  padding: 10px;
+  color: #fff;
+}
